@@ -3,9 +3,9 @@
 
 terraform {
     backend "azurerm" {
-        resource_group_name = "admincentral-devops-nprd-usc-rg-xyz"
-        storage_account_name = "umcsnprduscdevopssta"
-        container_name = "dev"
+        resource_group_name = "soc-nprd-usc-rg-123"
+        storage_account_name = "santhoshstorage2025"
+        container_name = "santhoshcontainer"
         key = "dev.tfstate"
     }
 }
