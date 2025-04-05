@@ -7,9 +7,9 @@ data "azurerm_client_config" "current" {
 #module "creating-random-name" {
    #source     = "./module/random-name"
 #}
-locals {
-    random_name = "${modules.creating-random-name.result}"
-}
+#locals {
+    #random_name = "${modules.creating-random-name.result}"
+#}
 
 # Resource group
 
