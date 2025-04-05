@@ -13,6 +13,6 @@ variable "tf_location" {
     type = string
 }
 
-variable "tf_tags" {
+variable "tags" {
     type = map
 }
