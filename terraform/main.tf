@@ -15,7 +15,7 @@ locals {
 
 module "creating-resourcegroup"{
     source = "./modules/rg"
-    Resource_group_name = "${var.tf_appname}-${var.tf_env}-${var.tf_region}-rg"
+    resource_group_name = "${var.tf_appname}-${var.tf_env}-${var.tf_region}-rg"
     location = var.tf_location
     tags = var.tags
 }
