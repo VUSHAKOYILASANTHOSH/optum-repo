@@ -13,8 +13,8 @@ locals {
 
 # Resource group
 
-module "creating-Resourcegroup"{
-    source = "./modules/Resourcegroup"
+module "creating-resourcegroup"{
+    source = "./modules/rg"
     Resource_group_name = "${var.tf_appname}-${var.tf_env}-${var.tf_region}-rg-${local.random_name}"
     location = var.tf_location
     tags = var.tags
